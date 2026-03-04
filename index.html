@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Conferência Split</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 font-sans">
+    <div class="max-w-3xl mx-auto p-6">
+      <!-- LOGOS -->
+      <div class="flex justify-center gap-10 items-center mb-8">
+        <img src="logo-gontijo.png" height="60" />
+
+        <img src="logo-ceopag.png" height="60" />
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+        <h1 class="text-2xl font-bold mb-2">Sistema de Conferência Split</h1>
+
+        <p class="text-gray-600 mb-8">Escolha como deseja acessar o sistema</p>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <button
+            onclick="
+              window.location.href =
+                'https://marcormarques.github.io/sistema-split/'
+            "
+            class="bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-2xl shadow"
+          >
+            <h2 class="text-xl font-semibold mb-2">Acessar pelo Navegador</h2>
+
+            <p>Utilizar o sistema diretamente no site</p>
+          </button>
+
+          <button
+            onclick="
+              window.location.href = 'https://marcormarques.github.io/SplitApp/'
+            "
+            class="bg-green-600 hover:bg-green-700 text-white p-6 rounded-2xl shadow"
+          >
+            <h2 class="text-xl font-semibold mb-2">Instalar Aplicativo</h2>
+
+            <p>Instalar o sistema como APP no celular</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- INSTRUÇÕES -->
+
+      <div class="bg-white rounded-2xl shadow-lg p-8 mt-8">
+        <h2 class="text-xl font-bold text-center mb-6">
+          Como instalar o aplicativo
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- ANDROID -->
+
+          <div>
+            <h3 class="font-semibold text-lg mb-3">🤖 Android</h3>
+
+            <ol class="list-decimal pl-5 space-y-1 text-gray-700">
+              <li>Abrir o link do APP no navegador <b>Google Chrome</b></li>
+
+              <li>Tocar no menu <b>⋮ (três pontinhos)</b></li>
+
+              <li>Selecionar <b>Adicionar à tela inicial</b></li>
+
+              <li>O sistema será instalado como aplicativo</li>
+            </ol>
+          </div>
+
+          <!-- IPHONE -->
+
+          <div>
+            <h3 class="font-semibold text-lg mb-3">🍎 iPhone (iOS)</h3>
+
+            <ol class="list-decimal pl-5 space-y-1 text-gray-700">
+              <li>Abrir o link do APP no navegador <b>Safari</b></li>
+
+              <li>Tocar no botão <b>Compartilhar</b></li>
+
+              <li>Selecionar <b>Adicionar à Tela de Início</b></li>
+
+              <li>O aplicativo aparecerá como um APP no iPhone</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center text-gray-500 text-sm mt-8">
+        Sistema de Conferência Split
+      </footer>
+    </div>
+  </body>
+</html>
